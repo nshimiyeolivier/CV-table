@@ -1,69 +1,78 @@
 
 body {font-family: sans-serif;
-      font-size: 15px;
+      font-size: 10px;
       }
 
-table td {
-     border: 20px solid #9b9ea0;
-        }
+/*.page td:nth-child(1){*/
+     /*border: 20px solid #9b9ea0;*/
+      /*}*/
+
+/*.bodi { border: 1px solid black; }*/
 
 .resume {
-  background-color:#1b80c4;
+  background-color: #1b80c4;
   color: white;
   margin-left: 2%;
   padding-left: 3%;
   margin-top: -0.5%;
   padding-top: 3%;
-  padding-right: 3%;
-  margin-right: 80%;
+  padding-right: 2%;
+  margin-right: 88%;
   padding-bottom: 0.1%;
         }
 
-thead td {
+progress {
+border-color: blue;
+         }
+
+/* thead td {
   border: 1px solid black;
          }
 
 tbody td{
   border: 1px solid black;
         }
+*/
+
 .work {
+  position: absolute;
   background-color: #1b80c4;
-  opacity: 0.5;
+  opacity: 0.8;
   color:white;
   font-weight: bold;
   display: block;
-  padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 15%;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 3%;
   margin-right: 60%;
-  padding-right: 4%;
+  padding-right: 2%;
   margin-left: 5%;
 transform:rotate(-55deg);
--ms-transform:rotate(-55deg); /* Internet Explorer */
--moz-transform:rotate(-55deg); /* Firefox */
--webkit-transform:rotate(-55deg); /* Safari et Chrome */
--o-transform:rotate(-55deg); /* Opera */
+-ms-transform:rotate(-57deg); /* Internet Explorer */
+-moz-transform:rotate(-57deg); /* Firefox */
+-webkit-transform:rotate(-57deg); /* Safari et Chrome */
+-o-transform:rotate(-57deg); /* Opera */
 }
 
 .play {
+  position:absolute;
   background-color: #1b80c4;
-  opacity: 0.5;
+  opacity: 0.8;
   color:white;
-  font-weight: bold;
+  font-weight: 600;
   display: block;
-  padding-left: 5%;
-  padding-top: 15%;
-  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 1%;
   margin-right: 60%;
-  padding-right: 4%;
-  margin-left: -20%
-transform:rotate(-55deg);
--ms-transform:rotate(-55deg); /* Internet Explorer */
--moz-transform:rotate(-55deg); /* Firefox */
--webkit-transform:rotate(-55deg); /* Safari et Chrome */
--o-transform:rotate(-55deg); /* Opera */
+  padding-right: 2%;
+  margin-left: 11%;
+transform:rotate(-57deg);
+-ms-transform:rotate(-57deg); /* Internet Explorer */
+-moz-transform:rotate(-57deg); /* Firefox */
+-webkit-transform:rotate(-57deg); /* Safari et Chrome */
+-o-transform:rotate(-57deg); /* Opera */
 }
-
 
 
 
